@@ -26,7 +26,6 @@
     this.refs.minutesTimer.innerHTML = mins;
     this.refs.secondsTimer.innerHTML = secs;
 }
-
   getTimeComponents(time) {
         const days = pad(Math.floor(time / (1000 * 60 * 60 * 24)));
         const hours = pad(Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
