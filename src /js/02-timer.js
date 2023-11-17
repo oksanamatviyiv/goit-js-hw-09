@@ -20,7 +20,6 @@
         }, 1000);
     }
 
-    
     updateClockface({ days, hours, mins, secs }) {
     this.refs.daysTimer.innerHTML = days;
     this.refs.hoursTimer.innerHTML = hours;
